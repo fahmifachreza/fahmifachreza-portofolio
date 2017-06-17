@@ -3,6 +3,8 @@ import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
+import ExampleComponent from './ExampleComponent';
+import PageNotFound from './PageNotFound';
 
 export default function App() {
   return (
