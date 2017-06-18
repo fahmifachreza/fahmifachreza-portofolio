@@ -1,12 +1,12 @@
 import React from 'react';
 import Interactive from 'react-interactive';
-import { Link } from 'react-router-dom';
+import { IndexLink, Link, browserHistory, Router  } from 'react-router-dom';
+
+
 export default function Home() {
-
-
   return (
     <div>
-      test
+      asdasdasdl;askldas
     </div>
   );
 }
