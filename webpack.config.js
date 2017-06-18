@@ -10,9 +10,21 @@ module.exports = {
 
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+      },
+      {
+        test: /\.(png|jpg|svg|jpeg)$/,
+        use: [{
+          loader: 'url-loader',
+          options: { limit: 10000 },
+        }],
+      },
     ],
   },
+
 
   plugins: process.argv.indexOf('-p') === -1 ? [] : [
     new webpack.optimize.UglifyJsPlugin({
