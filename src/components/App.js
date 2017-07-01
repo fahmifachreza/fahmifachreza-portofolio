@@ -1,7 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, browserHistory, Router } from 'react-router-dom';
-import { IndexLink, Link} from 'react-router';
+import { Link} from 'react-router';
 import Header from './Header';
 import MobileHeader from './MobileHeader';
 import Home from './Home';
