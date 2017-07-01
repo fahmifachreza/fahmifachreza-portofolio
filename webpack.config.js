@@ -16,7 +16,7 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.(png|jpg|svg|jpeg)$/,
+        test: /\.(png|jpg|svg|jpeg|pdf)$/,
         use: [{
           loader: 'url-loader',
           options: { limit: 10000 },
