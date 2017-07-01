@@ -1,7 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, browserHistory, Router } from 'react-router-dom';
-import { Link} from 'react-router';
+import { Link } from 'react-router';
 import Header from './Header';
 import MobileHeader from './MobileHeader';
 import Home from './Home';
@@ -20,7 +20,7 @@ export default function App() {
         <Route exact path="/frs" component={Frs} />
         <Route exact path="/topchat" component={Topchat} />
       </Switch>
-      <Footer />      
+      <Footer />
     </div>
   );
 }
