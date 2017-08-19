@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FrImageFull from '../assets/free-returns-full.png';
 
 
-export default function Footer() {
+export default function Frs() {
   return (
     <section className='container work' id='work'>
         <div className='clearfix mb4' id='free-returns'>

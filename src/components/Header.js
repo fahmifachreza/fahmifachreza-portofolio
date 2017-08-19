@@ -8,11 +8,10 @@ export default function Header() {
       <div className="col lg-col-3 logowrap">
         <h1><Link to="/">Fahmi Fachreza</Link></h1>
       </div>
-      <nav className="col lg-col-8 desktop-nav">
+      <nav className="col lg-col-9 desktop-nav">
         <ul>
-          <li><Link to="/work" id="gowork">Work</Link></li>
-          <li><Link to="/bio">Bio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><a href="https://github.com/fahmifachreza"><i className="icon icon_github" /></a></li>
+          <li><a href="https://www.linkedin.com/in/mfahmif/"><i className="icon icon_linkedin" /></a></li>
         </ul>
       </nav>
     </header>
