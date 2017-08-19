@@ -17,8 +17,7 @@ export default function Home() {
           <div className="col sm-col-12 md-col-7 lg-col-7">
             <div className="work-desc-wrap">
               <h2>Free return shipping microsites</h2>
-              <p className="work-desc">As a team, we created the microsites for Tokopedia’s new feature Free Returns. This project’s objective is to collect Creating microsites for new feature Free Returns that has an objective to collect sellers subscriptions. I was involved in creating the UI component with HTML5, CSS3, and Javascipt based on information architecture through the deployment with engineers.
-              After being launched for one week, the project receives 60,000 sellers across the platform subscribed to this new feature.</p>
+              <p className="work-desc">As a team, we created the microsites for Tokopedia’s new feature Free Returns. This project’s objective is to collect sellers subscriptions. I was involved in creating the UI component with HTML5, CSS3, and Javascipt based on information architecture through the deployment with engineers. After being launched for one week, the project receives 60,000 sellers across the platform subscribed to this new feature.</p>
               <a href="https://www.tokopedia.com/free-returns" rel="noopener noreferrer" target="_blank">Visit site</a>
               <a href="/frs">More details</a>
             </div>
