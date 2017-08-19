@@ -1,6 +1,4 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Switch, Route, IndexLink, Link, browserHistory, Router } from 'react-router-dom';
 import FrImage from '../assets/fr.png';
 import TopChat from '../assets/topchat.png';
 
@@ -9,9 +7,9 @@ export default function Home() {
     <div>
       <section className="container hero clearfix" id="hero">
         <div className="hero-headtagline">
-              A Product Designer and Front-end Developer who loves the design flows and product development.
+              A Product Designer and Front-end Developer.
           </div>
-        <p>I am extremely amazed with the interaction between users and the product. I really enjoy to work on various projects with engineers, designers, data scientist or people with different backgrounds.</p>
+        <p>I enjoy collaborating with engineers, designers, data scientists and people with different backgrounds to work on various projects. Seeing the interaction between the users and the product always inspires me to build an impactful products.</p>
       </section>
       <section className="container work" id="work">
 
@@ -19,9 +17,9 @@ export default function Home() {
           <div className="col sm-col-12 md-col-7 lg-col-7">
             <div className="work-desc-wrap">
               <h2>Free return shipping microsites</h2>
-              <p className="work-desc">Creating microsites for new feature Free Returns that has an objective to collect sellers subscriptions.  Involving in create the UI component based on information architecture through the front-end development with engineers.
-The results after launch for one week is 60.000 sellers across the platform subscribed to this new feature</p>
-              <a href="https://www.tokopedia.com/free-returns" target="_blank">Visit site</a>
+              <p className="work-desc">As a team, we created the microsites for Tokopedia’s new feature Free Returns. This project’s objective is to collect Creating microsites for new feature Free Returns that has an objective to collect sellers subscriptions. I was involved in creating the UI component with HTML5, CSS3, and Javascipt based on information architecture through the deployment with engineers.
+              After being launched for one week, the project receives 60,000 sellers across the platform subscribed to this new feature.</p>
+              <a href="https://www.tokopedia.com/free-returns" rel="noopener noreferrer" target="_blank">Visit site</a>
               <a href="/frs">More details</a>
             </div>
           </div>
@@ -35,7 +33,7 @@ The results after launch for one week is 60.000 sellers across the platform subs
             <div className="work-desc-wrap">
               <h2>Topchat: Tokopedia Chat Feature</h2>
               <p className="work-desc">Creating new chating feature that has an objective to improve the experience of chatting flow and the interaction between merchant and buyer inside Tokopedia platform.</p>
-              <a href="https://www.tokopedia.com/" target="_blank">Visit site</a>
+              <a href="https://www.tokopedia.com/" rel="noopener noreferrer" target="_blank">Visit site</a>
               <a href="/topchat">More details</a>
             </div>
           </div>
