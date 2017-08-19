@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <section className="container hero clearfix" id="hero">
         <div className="hero-headtagline">
-              A Product Designer and Front-end Developer.
-          </div>
+          A Product Designer and Front-end Developer who loves to build a good interaction in every design iteration.
+        </div>
         <p>I enjoy collaborating with engineers, designers, data scientists and people with different backgrounds to work on various projects. Seeing the interaction between the users and the product always inspires me to build an impactful products.</p>
       </section>
       <section className="container work" id="work">
