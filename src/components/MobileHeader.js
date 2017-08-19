@@ -1,15 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 export default function MobileHeader() {
   return (
     <header className="mobile-nav-wrap">
       <nav>
         <ul className="mobile-nav-list">
-          <li><Link to="/work">Work</Link></li>
-          <li><Link to="/bio">Bio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><a href="https://github.com/fahmifachreza"><i className="icon icon_github" /></a></li>
+          <li><a href="https://www.linkedin.com/in/mfahmif/"><i className="icon icon_linkedin" /></a></li>
         </ul>
       </nav>
     </header>
