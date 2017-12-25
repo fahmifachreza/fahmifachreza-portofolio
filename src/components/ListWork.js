@@ -1,0 +1,58 @@
+
+import React, { Component } from 'react';
+import { object, bool } from 'prop-types';
+import { CSSTransitionGroup } from 'react-transition-group';
+import LazyLoad from 'react-lazyload';
+import FrImage from '../assets/fr.png';
+import TopChat from '../assets/topchat.png';
+
+
+class ListWork extends Component {
+
+  static defaultProps = {
+    transitionAnimation: object,
+    isRead: false,
+    listWorkContent: object,
+  }
+
+  static propTypes = {
+    transitionAnimation: object,
+    isRead: bool,
+    listWorkContent: object,
+  }
+
+  render() {
+    const { isRead } = this.props;
+    const item = this.props.listWorkContent;
+    return (
+      <section className="container work" id="work">
+        <div className="clearfix mb4" id="free-returns">
+          <div className="col sm-col-12 md-col-7 lg-col-7">
+            <div className="work-desc-wrap">
+              <h2>{item.workTitle}</h2>
+              <p className="work-desc">
+                {item.workDesc}
+              </p>
+              <a href={item.workUrl.url} rel="noopener noreferrer" target="_blank">
+                {item.workUrl.text}
+              </a>
+              <a href="/frs">More details</a>
+            </div>
+          </div>
+          <div className="col sm-col-12 md-col-5 lg-col-5">
+            <LazyLoad throttle={200} key={0} height={200}>
+              <CSSTransitionGroup {...this.props.transitionAnimation}>
+                {
+                 isRead && <img src={item.workImage} key={0} className="work-img" alt="" />
+                }
+              </CSSTransitionGroup>
+            </LazyLoad>
+          </div>
+        </div>
+      </section>
+    );
+  }
+}
+
+export default ListWork;
+
