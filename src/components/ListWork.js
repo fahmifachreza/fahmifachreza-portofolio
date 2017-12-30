@@ -31,9 +31,13 @@ class ListWork extends Component {
               <p className="work-desc">
                 {item.workDesc}
               </p>
-              <a href={item.workUrl.url} rel="noopener noreferrer" target="_blank">
-                {item.workUrl.text}
-              </a>
+              {
+                item.workTitle !== 'Item Replacement' && (
+                  <a href={item.workUrl.url} rel="noopener noreferrer" target="_blank">
+                    {item.workUrl.text}
+                  </a>
+                )
+              }
               <a href={item.workRoute}>More details</a>
             </div>
           </div>
