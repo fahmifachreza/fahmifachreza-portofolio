@@ -1,5 +1,6 @@
 import React from 'react';
 import FrImageFull from '../assets/free-returns-full.png';
+import LazyLoad from 'react-lazyload';
 
 export default function Frs() {
   return (
@@ -29,7 +30,9 @@ export default function Frs() {
           </div>
         </div>
         <div className="col sm-col-12 md-col-12 lg-col-12 mt4">
-          <img src={FrImageFull} className="work-img" alt="" />
+          <LazyLoad throttle={200} key={0} height={200}>
+            <img src={FrImageFull} className="work-img" alt="" />
+          </LazyLoad>
         </div>
       </div>
     </section>

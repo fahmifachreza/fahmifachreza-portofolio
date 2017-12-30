@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import TopchatImgFull from '../assets/topchatboard.png';
 import TopchatBoardPdf from '../assets/topchatboard.pdf';
 
@@ -15,7 +16,11 @@ export default function Topchat() {
           </div>
         </div>
         <div className="col sm-col-12 md-col-12 lg-col-12 mt4">
-          <a href={TopchatBoardPdf} rel="noopener noreferrer" target="_blank"><img src={TopchatImgFull} className="work-img" id="largeImage" alt="" /></a>
+          <a href={TopchatBoardPdf} rel="noopener noreferrer" target="_blank">
+            <LazyLoad throttle={200} key={0} height={200}>
+              <img src={TopchatImgFull} className="work-img" id="largeImage" alt="" />
+            </LazyLoad>
+          </a>
         </div>
       </div>
     </section>

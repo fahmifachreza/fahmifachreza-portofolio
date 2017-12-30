@@ -13,8 +13,19 @@ class Home extends Component {
 
     const lwContent = [
       {
+        workTitle: 'Item Replacement',
+        workDesc: 'As a team, we created the item replacement as a new feature in 2017. The objective of this project is to reduce the order cancellation rate. I was involved in developing the UI component with HTML5, CSS3, and React based on our flow and wireframes. After being launched for one month, the order cancellation rate is decreased by 25% and the rate of new order is increased up to 40%.',
+        workRoute: '/itemreplacement',
+        workUrl: {
+          url: 'https://www.tokopedia.com/peluang',
+          text: 'Visit Site',
+        },
+        workImage: '/build/f23ea378de5dc8958bd1d599ad8aea54.jpg',
+      },
+      {
         workTitle: 'Free return shipping microsites',
         workDesc: 'As a team, we created the microsites for Tokopedia’s new feature Free Returns. This project’s objective is to collect sellers subscriptions. I was involved in creating the UI component with HTML5, CSS3, and Javascipt based on information architecture through the deployment with engineers. After being launched for one week, the project receives 60,000 sellers across the platform subscribed to this new feature.',
+        workRoute: '/frs',
         workUrl: {
           url: 'https://www.tokopedia.com/free-returns',
           text: 'Visit Site',
@@ -23,6 +34,7 @@ class Home extends Component {
       },
       {
         workTitle: 'Topchat: Tokopedia Chat Feature',
+        workRoute: '/topchat',
         workDesc: 'Creating new chating feature that has an objective to improve the experience of chatting flow and the interaction between merchant and buyer inside Tokopedia platform.',
         workUrl: {
           url: 'https://www.tokopedia.com/inbox-chat-new.pl',
