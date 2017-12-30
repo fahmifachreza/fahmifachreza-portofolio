@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import { object, bool } from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
 import LazyLoad from 'react-lazyload';
-import FrImage from '../assets/fr.png';
-import TopChat from '../assets/topchat.png';
 
 
 class ListWork extends Component {
@@ -36,7 +34,7 @@ class ListWork extends Component {
               <a href={item.workUrl.url} rel="noopener noreferrer" target="_blank">
                 {item.workUrl.text}
               </a>
-              <a href="/frs">More details</a>
+              <a href={item.workRoute}>More details</a>
             </div>
           </div>
           <div className="col sm-col-12 md-col-5 lg-col-5">
