@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import Header from './Header';
-// import MobileHeader from './MobileHeader';
+import MobileHeader from './MobileHeader';
 import Home from './Home';
 import Footer from './Footer';
 import Frs from './Frs';
@@ -27,6 +27,7 @@ export default function App() {
           <Route exact path="/topchat" component={Topchat} />
           <Route exact path="/itemreplacement" component={ItemReplacement} />
         </Switch>
+        <MobileHeader />
         <Footer />
       </div>
     </Router>
