@@ -7,7 +7,7 @@ class Home extends Component {
 
   componentWillMount() {
     const hero = {
-      heroTitle: 'A Product Designer and Front-end Developer who loves to create a better interaction in every design iteration.',
+      heroTitle: 'A Product Designer and Front-end Developer who loves creating a better interaction in every design iteration.',
       heroTagline: 'I enjoy collaborating with engineers, designers, data scientists and people with different backgrounds to work on various projects. Seeing the interaction between the users and the product always inspires me to build an impactful products.',
     };
 
