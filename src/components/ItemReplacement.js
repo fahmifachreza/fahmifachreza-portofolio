@@ -10,7 +10,7 @@ export default function ItemReplacement() {
           <div className="work-desc-wrap">
             <h2>Item Replacement</h2>
             <p className="work-desc">
-              Item replacement is one of Tokopedia's new features in 2017. The basic idea of this features is to reduce the order that being canceled by merchants with any kind of reason. This feature will find the same product that the first merchant canceled through another merchants in Tokopedia. Each merchants can decide whether they want to take this order or not. The results are pretty awesome. After being launched for one month, the order cancellation rate is decreased by 25% and the rate of new order is increased up to 40%.<br /> This was my first project using React, GraphQL and Redux. I involved in developing the stateless and full-state component, creating the interaction between component such as search product by invoice or product's name, and also routing it with React-router.
+            Item Replacement is one of Tokopedia’s new features in 2017. The goal of this project is to reduce the amount of orders that are cancelled by sellers for any kind of reason. This feature provides buyers with similar product offered by another sellers. Each seller has the option to participate or opt out from this project. After being launched for one month, the order cancellation rate is decreased by 25% and the rate of new order is increased up to 40%.<br /> This was the first project I completed using React, GraphQL and Redux. I was involved in developing the stateless and full-state components, creating the interaction between components such as search product by invoice or product's name, and routing it with React-router.
             </p>
           </div>
         </div>

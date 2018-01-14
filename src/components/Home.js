@@ -7,7 +7,7 @@ class Home extends Component {
 
   componentWillMount() {
     const hero = {
-      heroTitle: 'A Product Designer and Front-end Developer who loves to build a good interaction in every design iteration.',
+      heroTitle: 'A Product Designer and Front-end Developer who loves to create a better interaction in every design iteration.',
       heroTagline: 'I enjoy collaborating with engineers, designers, data scientists and people with different backgrounds to work on various projects. Seeing the interaction between the users and the product always inspires me to build an impactful products.',
     };
 
@@ -24,7 +24,7 @@ class Home extends Component {
       },
       {
         workTitle: 'Free return shipping microsites',
-        workDesc: 'As a team, we created the microsites for Tokopedia’s new feature Free Returns. This project’s objective is to collect sellers subscriptions. I was involved in creating the UI component with HTML5, CSS3, and Javascipt based on information architecture through the deployment with engineers. After being launched for one week, the project receives 60,000 sellers across the platform subscribed to this new feature.',
+        workDesc: 'Free Returns is recently introduced as Tokopedia’s new feature. I was involved in developing the UI components using HTML5, CSS3, and Javascript based on the information architecture. After being launched for one week, the project successfully receives 60,000 sellers subscribe to this new feature.',
         workRoute: '/frs',
         workUrl: {
           url: 'https://www.tokopedia.com/free-returns',
@@ -35,7 +35,7 @@ class Home extends Component {
       {
         workTitle: 'Topchat: Tokopedia Chat Feature',
         workRoute: '/topchat',
-        workDesc: 'Creating new chating feature that has an objective to improve the experience of chatting flow and the interaction between merchant and buyer inside Tokopedia platform.',
+        workDesc: 'Topchat provides new functionalities that allow a better interaction between Tokopedia’s sellers and buyers inside a messaging platform.',
         workUrl: {
           url: 'https://www.tokopedia.com/inbox-chat-new.pl',
           text: 'Visit Site',
