@@ -11,14 +11,17 @@ export default function Topchat() {
         <div className="col sm-col-12 md-col-12 lg-col-12">
           <div className="work-desc-wrap">
             <h2>Topchat: Tokopedia Chat Feature</h2>
-            <p className="work-desc">Topchat was a chatting platform that improve the inbox message Tokopedia Modules. This project actually born in Tokopedia's internal Hackathon Challenge. Me and my team mates had an idea to improve our chatting experience by build the new chat platform that separate every context messaging into a different threads and the goal is that every seller and buyers can chat across Tokopedia's platform through Desktop and Apps Platform. We manage to build this and the development process still continue up until now to reach the goals that sellers and buyers can do transaction / checkout process inside the threads. <br /> The design process pretty complex because total there are 12 State in this feature and me with my <a href="https://www.linkedin.com/in/alvin-liauw-a7799465/" target="_blank">colleague</a>. </p>
+            <p className="work-desc">
+            Topchat is a project that is originally created during Tokopedia’s internal Hackathon Challenge. Our team aims to improve the company’s current messaging platform by developing a new design that separate contents into different threads. It can be easily used by both sellers and buyers on desktop browser and mobile application. We are currently working to expand its functionality so that the transaction and check out process can be done inside the threads.</p>
             <a href="https://www.tokopedia.com/" rel="noopener noreferrer" target="_blank" className="mb4">Visit site</a>
           </div>
         </div>
         <div className="col sm-col-12 md-col-12 lg-col-12 mt4">
-          <LazyLoad throttle={200} key={0} height={200}>
-            <img src={TopchatImgFull} className="work-img" id="largeImage" alt="" />
-          </LazyLoad>
+          <a href={TopchatBoardPdf} target="_blank" rel="noopener noreferrer">
+            <LazyLoad throttle={200} key={0} height={200}>
+              <img src={TopchatImgFull} className="work-img" id="largeImage" alt="" />
+            </LazyLoad>
+          </a>
         </div>
       </div>
     </section>
