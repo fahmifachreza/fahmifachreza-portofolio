@@ -1,10 +1,10 @@
 import React from 'react';
-import ItemReplacementPng from '../assets/peluang_lite.png';
+import ItemReplacementPng from '../assets/dummyWireframe.png';
 import LazyLoad from 'react-lazyload';
 
 export default function ItemReplacement() {
   return (
-    <section className="container work" id="work">
+    <section className="container work" id="detailWork">
       <div className="clearfix mb4" id="topchat">
         <div className="col sm-col-12 md-col-12 lg-col-12">
           <div className="work-desc-wrap">
@@ -14,10 +14,16 @@ export default function ItemReplacement() {
             </p>
           </div>
         </div>
-        <div className="col sm-col-12 md-col-12 lg-col-12 mt2">
+        <div className="col sm-col-12 md-col-12 lg-col-12 mt2 relative">
           <LazyLoad throttle={200} key={0} height={200}>
             <img src={ItemReplacementPng} className="work-img" id="largeImage" alt="" />
           </LazyLoad>
+          <div className="caption">
+            <h3>
+              Due to confidentiality, i couldn't show this to you now. But, i'll show you directly if we could arrange an interview.<br />
+              Just send me an email at mfahmifachreza@gmail.com. Thank you.
+            </h3>
+          </div>
         </div>
       </div>
     </section>

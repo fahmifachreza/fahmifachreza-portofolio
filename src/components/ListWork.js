@@ -28,16 +28,17 @@ class ListWork extends Component {
           <div className="col sm-col-12 md-col-7 lg-col-7">
             <div className="work-desc-wrap">
               <h2>{item.workTitle}</h2>
+              <div className="keywords clearfix">
+                <div className="col col-1 mr2">
+                  Keywords:
+                </div>
+                <div className="col col-10">
+                  {item.keyWords}
+                </div>
+              </div>
               <p className="work-desc">
                 {item.workDesc}
               </p>
-              {
-                item.workTitle !== 'Item Replacement' && (
-                  <a href={item.workUrl.url} rel="noopener noreferrer" target="_blank">
-                    {item.workUrl.text}
-                  </a>
-                )
-              }
               <a href={item.workRoute}>More details</a>
             </div>
           </div>

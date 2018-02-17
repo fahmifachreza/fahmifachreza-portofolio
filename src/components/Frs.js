@@ -4,8 +4,8 @@ import LazyLoad from 'react-lazyload';
 
 export default function Frs() {
   return (
-    <section className="container work" id="work">
-      <div className="clearfix mb4" id="free-returns">
+    <section className="container work" id="detailWork">
+      <div className="clearfix mb4" id="freeReturns">
         <div className="col sm-col-12 md-col-12 lg-col-12">
           <div className="work-desc-wrap">
             <h2>Free return shipping microsites</h2>
@@ -17,7 +17,7 @@ export default function Frs() {
             </a>
           </div>
         </div>
-        <div className="col sm-col-12 md-col-12 lg-col-12 mt4">
+        <div className="col sm-col-12 md-col-12 lg-col-12 mt4 relative">
           <LazyLoad throttle={200} key={0} height={200}>
             <img src={FrImageFull} className="work-img" alt="" />
           </LazyLoad>
