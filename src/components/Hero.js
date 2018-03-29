@@ -8,7 +8,7 @@ export default function Hero({ data }) {
     <section className="container hero clearfix" id="hero">
       <div className="hero-headtagline">{data.heroTitle}</div>
       <p>{data.heroTagline}</p>
-      <div className="mt1"><a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn btn-action">Get my resume</a></div>
+      <div className="mt1"><a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn btn-action">See my resume</a></div>
     </section>
   );
 }
