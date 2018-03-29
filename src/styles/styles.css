@@ -7,26 +7,6 @@ body {
 h2 {
   font-family: 'Seravek-Bold', sans-serif;
 }
-.btn.btn-action {
-  display: inline-block;
-  background: rgba(255,255,255,1);
-  border: 2px solid rgba(255, 4, 4, 0.54);
-  -webkit-appearance: none;
-  font-size: 14px;
-  padding: 1rem 2rem;
-  color: rgba(255, 4, 4, 0.54);  
-  font-weight: 400;
-  box-shadow: none;
-  font-family: 'Seravek';
-  transition: all ease 0.2s;  
-}
-.btn.btn-action:hover {
-  background: rgba(255, 4, 4, 0.54);
-  border: 2px solid rgba(255, 4, 4, 0.54);  
-  color: rgba(255, 255, 255, 1);
-  cursor: pointer;
-  text-decoration: none;
-}
 ul li {
   list-style: none;
 }
@@ -282,6 +262,28 @@ nav ul li {
   #detailWork .work-desc {
     font-size: 1rem;
   }
+}
+
+#btn.btn.btn-action {
+  display: inline-block;
+  background: rgba(255,255,255,1);
+  border: 2px solid rgba(255, 4, 4, 0.54);
+  -webkit-appearance: none;
+  font-size: 14px;
+  padding: 1rem 2rem;
+  color: rgba(255, 4, 4, 0.54);  
+  font-weight: 400;
+  box-shadow: none;
+  font-family: 'Seravek';
+  transition: all ease 0.2s;  
+  border-radius: 35px;  
+}
+.btn.btn-action:hover {
+  background: rgb(250, 52, 64);
+  border: 2px solid rgba(255, 4, 4, 0.54);  
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* ICON */
