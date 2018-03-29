@@ -264,7 +264,7 @@ nav ul li {
   }
 }
 
-#btn.btn.btn-action {
+.btn.btn-action {
   display: inline-block;
   background: rgba(255,255,255,1);
   border: 2px solid rgba(255, 4, 4, 0.54);
