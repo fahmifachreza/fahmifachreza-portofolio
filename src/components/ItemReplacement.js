@@ -20,8 +20,7 @@ export default function ItemReplacement() {
           </LazyLoad>
           <div className="caption">
             <h3>
-              Due to confidentiality, i couldn't show this to you now. But, i'll show you directly if we could arrange an interview.<br />
-              Just send me an email at mfahmifachreza@gmail.com. Thank you.
+              Due to confidentiality, the visual of this project is hidden from public however it can still be presented in person meeting.
             </h3>
           </div>
         </div>

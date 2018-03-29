@@ -7,6 +7,26 @@ body {
 h2 {
   font-family: 'Seravek-Bold', sans-serif;
 }
+.btn.btn-action {
+  display: inline-block;
+  background: rgba(255,255,255,1);
+  border: 2px solid rgba(255, 4, 4, 0.54);
+  -webkit-appearance: none;
+  font-size: 14px;
+  padding: 1rem 2rem;
+  color: rgba(255, 4, 4, 0.54);  
+  font-weight: 400;
+  box-shadow: none;
+  font-family: 'Seravek';
+  transition: all ease 0.2s;  
+}
+.btn.btn-action:hover {
+  background: rgba(255, 4, 4, 0.54);
+  border: 2px solid rgba(255, 4, 4, 0.54);  
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
 ul li {
   list-style: none;
 }
@@ -86,7 +106,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 0 15x;
+  margin: 0 15px;
 }
 #hero {
   margin: 3rem auto;
@@ -280,4 +300,11 @@ nav ul li {
   background-size: 50px 50px;
   width: 50px;
   height: 50px;
+}
+
+.icon_sourcerer {
+  background: url('../assets/icon_sourcerer.png') no-repeat 0 0;
+	background-size: 30px 40px;
+  width: 30px;
+  height: 45px;
 }

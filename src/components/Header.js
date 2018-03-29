@@ -11,6 +11,7 @@ export default function Header() {
         <ul>
           <li><a href="https://github.com/fahmifachreza"><i className="icon icon_github" /></a></li>
           <li><a href="https://www.linkedin.com/in/mfahmif/"><i className="icon icon_linkedin" /></a></li>
+          <li><a href="https://sourcerer.io/fahmifachreza"><i className="icon icon_sourcerer" /></a></li>
         </ul>
       </nav>
     </header>
