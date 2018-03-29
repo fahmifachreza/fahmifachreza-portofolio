@@ -1,7 +1,8 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
-// import TopchatImgFull from '../assets/topchatboard.png';
-import TopchatImgFull from '../assets/dummyWireframe.png';
+import TopchatImgFull from '../assets/topchatboard.png';
+import TopChatPdf from '../assets/topchatboard.pdf';
+// import TopchatImgFull from '../assets/dummyWireframe.png';
 
 
 export default function Topchat() {
@@ -17,15 +18,11 @@ export default function Topchat() {
           </div>
         </div>
         <div className="col sm-col-12 md-col-12 lg-col-12 mt4 relative">
-          <LazyLoad throttle={200} key={0} height={200}>
-            <img src={TopchatImgFull} className="work-img" id="largeImage" alt="" />
-          </LazyLoad>
-          <div className="caption">
-            <h3>
-              Due to confidentiality, i couldn't show this to you now. But, i'll show you directly if we could arrange an interview.<br />
-              Just send me an email at mfahmifachreza@gmail.com. Thank you.
-            </h3>
-          </div>
+          <a href={TopChatPdf} rel="noopener noreferrer" target="_blank" >
+            <LazyLoad throttle={200} key={0} height={200}>
+              <img src={TopchatImgFull} className="work-img topchat-img" id="largeImage" alt="" />
+            </LazyLoad>
+          </a>
         </div>
       </div>
     </section>

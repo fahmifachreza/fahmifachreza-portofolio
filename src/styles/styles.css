@@ -112,9 +112,9 @@ nav ul li {
 #work .keywords {
   margin-bottom: 30px;
   font-size: 14px;
-  color: #a2a2a2;
+  color: #a7a7a7;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 100;
 }
 #work a,
 #detailWork a {
@@ -140,6 +140,12 @@ nav ul li {
   -o-filter: blur(20px);
   -ms-filter: blur(20px);
   filter: blur(20px);
+}
+#detailWork .work-img.topchat-img {
+  width: 100%;
+  max-width: auto;
+  position: relative;
+  filter: none;
 }
 #work .work-img,
 #detailWork #freeReturns .work-img {
@@ -190,6 +196,9 @@ nav ul li {
     width: 100%;
     font-size: 1.5rem;
     line-height: 35px;
+  }
+  #work .work-desc-wrap {
+    margin-bottom: 1rem;
   }
   #detailWork .work-desc-wrap {
     margin-bottom: 20px;

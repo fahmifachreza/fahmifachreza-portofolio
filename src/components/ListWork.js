@@ -29,10 +29,10 @@ class ListWork extends Component {
             <div className="work-desc-wrap">
               <h2>{item.workTitle}</h2>
               <div className="keywords clearfix">
-                <div className="col col-1 mr2">
-                  Keywords:
+                <div>
+                  Technologies:
                 </div>
-                <div className="col col-10">
+                <div>
                   {item.keyWords}
                 </div>
               </div>
