@@ -30,7 +30,7 @@ class ListWork extends Component {
               <h2>{item.workTitle}</h2>
               <div className="keywords clearfix">
                 <div>
-                  Technologies:
+                  Keywords:
                 </div>
                 <div>
                   {item.keyWords}
